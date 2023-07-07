@@ -21,7 +21,7 @@ $(document).ready(function () {
 
         $("[i18n]").i18n({
             defaultLang: a,
-            filePath: "/assets/i18n/",
+            filePath: "/responsive-portfolio-website/assets/i18n/",
         });
 
     });
