@@ -367,7 +367,6 @@ img {
 
 .home__scroll-arrow {
   font-size: 1.25rem;
-
 }
 
 /*==================== BUTTONS ====================*/
@@ -378,7 +377,6 @@ img {
   padding: 1rem;
   border-radius: .5rem;
   font-weight: var(--font-medium);
-
 }
 
 .button:hover {
