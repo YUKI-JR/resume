@@ -3,7 +3,7 @@ $(document).ready(function () {
     var defaultLang = "en";
     $("[i18n]").i18n({
         defaultLang: defaultLang,
-        filePath: "./i18n/",//路径配置
+        filePath: "../assets/i18n/",//路径配置
         filePrefix: "i18n_",
         fileSuffix: "",
         forever: true,
@@ -20,7 +20,7 @@ $(document).ready(function () {
         console.log($(e.target).val());
         $("[i18n]").i18n({
             defaultLang: a,
-            filePath: "./i18n/",
+            filePath: "../assets/i18n/",
         });
 
     });
